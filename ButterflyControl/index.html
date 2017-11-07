@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Butterfly control</title>
+	<meta charset="utf-8" />
+    <link href="reset.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="selection">
+
+        <label for="available">Available</label>
+        <select class="select_box left" id="available" multiple size="4">
+            <option>Option 1</option>
+            <option>Option 3</option>
+            <option>Option 5</option>
+        </select>
+
+        <div class="buttons">
+            <button class="move_button move_right_all">&gt;&gt;</button>
+            <button class="move_button move_right">&gt;</button>
+            <button class="move_button move_left">&lt;</button>
+            <button class="move_button move_left_all">&lt;&lt;</button>
+        </div>
+
+        <label for="selected">Selected</label>
+        <select class="select_box right" id="selected" multiple size="4">
+            <option>Option 2</option>
+            <option>Option 4</option>
+        </select>
+    </div>
+    
+    
+    <div class="selection in_line">
+
+        <label class="label_in_line" for="available">Доступные</label>
+        <select class="select_box left box_in_line" id="available" multiple size="4">
+            <option>Опция 1</option>
+            <option>Опция 3</option>
+            <option>Опция 5</option>
+        </select>
+
+        <div class="buttons buttons_in_line">
+            <button class="move_button move_right_all">&gt;&gt;</button>
+            <button class="move_button move_right">&gt;</button>
+            <button class="move_button move_left">&lt;</button>
+            <button class="move_button move_left_all">&lt;&lt;</button>
+        </div>
+
+        <label class="label_in_line" for="selected">Выбранные</label>
+        <select class="select_box right box_in_line" id="selected" multiple size="4">
+            <option>Опция 2</option>
+            <option>Опция 4</option>
+        </select>
+    </div>
+    
+    <div class="selection">
+
+        <label for="available">Available</label>
+        <select class="select_box left" id="available" multiple size="4">
+            <option>Option 1</option>
+            <option>Option 3</option>
+            <option>Option 5</option>
+        </select>
+
+        <div class="buttons">
+            <button class="move_button move_right_all">&gt;&gt;</button>
+            <button class="move_button move_left_all">&lt;&lt;</button>
+            <button class="move_button move_right">&gt;</button>
+            <button class="move_button move_left">&lt;</button>
+        </div>
+
+        <label for="selected">Selected</label>
+        <select class="select_box right" id="selected" multiple size="4">
+            <option>Option 2</option>
+            <option>Option 4</option>
+        </select>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

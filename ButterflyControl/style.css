@@ -1,0 +1,76 @@
+.selection {
+    margin: 20px;
+    position: relative;
+    width: 342px;
+    height: 92px;
+    border: 1px solid #AAA;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.selection > label {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 800;
+    width: 150px;
+    text-align: center;
+}
+
+.select_box {
+    position: relative;
+    width: 150px;
+    left: -154px;
+    height: 70px;
+    overflow-y:auto;
+}
+
+.select_box > option {
+    width: 145px;
+}
+
+.selection > label:last-of-type {
+    left: 192px;
+    top:-92px;
+}
+
+.select_box:last-child {
+    left: 38px;
+    top: -74px;
+}
+
+.buttons {
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    left: -152px;
+}
+
+.move_button {
+    width: 30px;
+    margin: 1px 0;
+}
+
+.buttons_in_line {
+    width: 132px;
+    left: 87px;
+    top: 25px;
+}
+
+.box_in_line {
+    top:20px;
+}
+.box_in_line:last-of-type {
+    top:-73px;
+    left:157px;
+}
+
+.selection .label_in_line:last-of-type {
+    left: 20px;
+    top:-73px;
+}
+
+.in_line {
+    height: 112px;
+    width: 307px;
+}

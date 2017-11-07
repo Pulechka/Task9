@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{995A5C1E-39C6-425E-9571-1A53B848F3A2}</ProjectGuid>
+    <ProjectGuid>{C7298AE7-CECF-4F1E-BD45-4E7460635119}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CharRemover</RootNamespace>
-    <AssemblyName>CharRemover</AssemblyName>
+    <RootNamespace>SimpleGallery</RootNamespace>
+    <AssemblyName>SimpleGallery</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -106,13 +106,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="main.js" />
+    <Content Include="HTML\page1.html" />
+    <Content Include="HTML\page2.html" />
+    <Content Include="HTML\index.html" />
+    <Content Include="HTML\page3.html" />
+    <Content Include="Images\arrow_left.ico" />
+    <Content Include="JS\calculator.js" />
+    <Content Include="CSS\reset.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="JS\gallery.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -126,9 +134,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52347</DevelopmentServerPort>
+          <DevelopmentServerPort>51299</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52347/</IISUrl>
+          <IISUrl>http://localhost:51299/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{995A5C1E-39C6-425E-9571-1A53B848F3A2}</ProjectGuid>
+    <ProjectGuid>{5B2C3358-6978-4BE7-BC7E-2128B7A67786}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CharRemover</RootNamespace>
-    <AssemblyName>CharRemover</AssemblyName>
+    <RootNamespace>MathCalculator</RootNamespace>
+    <AssemblyName>MathCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -108,6 +108,7 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="main.js" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,9 +127,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52347</DevelopmentServerPort>
+          <DevelopmentServerPort>52751</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52347/</IISUrl>
+          <IISUrl>http://localhost:52751/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
